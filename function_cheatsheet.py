@@ -37,3 +37,11 @@ float(some_int)
 #functions in python require a keyword to define them ;def followed by an identifier.
 #this forms the function signature.
 #the body of th function contains the code to run when the function is called
+
+
+def say_hello():
+    return "Hello There"
+
+#With parameters
+def say_hello(you):
+    return "Hello" + you
